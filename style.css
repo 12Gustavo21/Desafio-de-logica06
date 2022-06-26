@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/gatinho.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    overflow-y: hidden;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 6em;
+    text-shadow: 0 0 100px;
+    animation: pulsar 2s infinite linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe {
+    width: 50vw;
+    height: 30vw;
+    transition: 1s all;
+}
+
+iframe:hover {
+    border-radius: 50px;
+    filter: drop-shadow(10px 10px 10px);
+}
+
+@keyframes pulsar {
+
+    0%,
+    100% {
+        color: rgb(255, 0, 0);
+    }
+
+    25% {
+        color: rgb(255, 136, 0);
+    }
+
+    35% {
+        color: rgb(251, 255, 0);
+    }
+
+    45% {
+        color: rgb(115, 255, 0);
+    }
+
+    55% {
+        color: rgb(0, 81, 255);
+    }
+
+    60% {
+        color: rgb(174, 0, 255);
+    }
+}
