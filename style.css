@@ -69,3 +69,33 @@ iframe:hover {
         color: rgb(174, 0, 255);
     }
 }
+
+@media (max-width: 768px) {
+    iframe {
+        width: 60vw;
+        height: 40vw;
+    }
+}
+
+@media (max-width: 540px) {
+    h1 {
+        font-size: 5em;
+    }
+
+    iframe {
+        width: 80vw;
+        height: 60vw;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 4em;
+    }
+}
+
+@media (max-width: 300px) {
+    h1 {
+        font-size: 3em;
+    }
+}
